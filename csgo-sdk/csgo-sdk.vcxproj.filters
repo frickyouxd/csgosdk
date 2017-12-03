@@ -1,0 +1,423 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="ImGui">
+      <UniqueIdentifier>{ed2bdd03-4d46-460f-b888-5ca1da6814bf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="sdk">
+      <UniqueIdentifier>{ebb10150-5d46-485b-adf9-d35c3ac321c3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="sdk\Classes / Structs">
+      <UniqueIdentifier>{072b724f-2a15-40b6-8d13-8c05a660eb41}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="sdk\Interfaces">
+      <UniqueIdentifier>{fd1fc5e1-7405-43b2-9f7d-ba5b5000ed66}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Hack">
+      <UniqueIdentifier>{a0566ff6-292a-442e-951f-845c5f09170b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Hack\Basics">
+      <UniqueIdentifier>{4600ff7b-77de-41d6-983d-3645f1e7a37e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Hack\Components">
+      <UniqueIdentifier>{aa1dcc98-2bb9-4798-b9c4-31e59c467cf3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Hack\Helpers">
+      <UniqueIdentifier>{60406eef-f09a-4e26-8998-46cdc5c22a93}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Hack\Hooks">
+      <UniqueIdentifier>{fe1a6402-172f-4c13-b6e1-c79c65930d76}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="imgui\imconfig.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imgui.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imgui_internal.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\stb_rect_pack.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\stb_textedit.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\stb_truetype.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\dx9\imgui_dx9.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\Interfaces\GameMovement.h">
+      <Filter>sdk\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\Interfaces\IBaseClientDLL.h">
+      <Filter>sdk\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\Interfaces\IClientEntityList.h">
+      <Filter>sdk\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\Interfaces\IClientModeShared.h">
+      <Filter>sdk\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\Interfaces\ICvar.h">
+      <Filter>sdk\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\Interfaces\IEngineClient.h">
+      <Filter>sdk\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\Interfaces\IEngineTrace.h">
+      <Filter>sdk\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\Interfaces\IGlobalVarsBase.h">
+      <Filter>sdk\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\Interfaces\IInputSystem.h">
+      <Filter>sdk\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\Interfaces\IMaterial.h">
+      <Filter>sdk\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\Interfaces\IMaterialSystem.h">
+      <Filter>sdk\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\Interfaces\IMDLCache.h">
+      <Filter>sdk\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\Interfaces\IMoveHelper.h">
+      <Filter>sdk\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\Interfaces\INetChannelInfo.h">
+      <Filter>sdk\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\Interfaces\IPrediction.h">
+      <Filter>sdk\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\Interfaces\IRenderView.h">
+      <Filter>sdk\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\Interfaces\IStudioRender.h">
+      <Filter>sdk\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\Interfaces\ISurface.h">
+      <Filter>sdk\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\Interfaces\IVDebugOverlay.h">
+      <Filter>sdk\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\Interfaces\IVModelInfo.h">
+      <Filter>sdk\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\Interfaces\IVModelRender.h">
+      <Filter>sdk\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\Interfaces\IVPanel.h">
+      <Filter>sdk\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\Interfaces\VEngineEffects.h">
+      <Filter>sdk\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\Classes Structs\BaseEntityList.h">
+      <Filter>sdk\Classes / Structs</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\Classes Structs\BaseHandle.h">
+      <Filter>sdk\Classes / Structs</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\Classes Structs\CEntity.h">
+      <Filter>sdk\Classes / Structs</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\Classes Structs\Checksum_Md5.h">
+      <Filter>sdk\Classes / Structs</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\Classes Structs\CHLClient.h">
+      <Filter>sdk\Classes / Structs</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\Classes Structs\ClientClass.h">
+      <Filter>sdk\Classes / Structs</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\Classes Structs\Color.h">
+      <Filter>sdk\Classes / Structs</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\Classes Structs\ConVar.h">
+      <Filter>sdk\Classes / Structs</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\Classes Structs\CUtlVector.h">
+      <Filter>sdk\Classes / Structs</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\Classes Structs\GlowManager.h">
+      <Filter>sdk\Classes / Structs</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\Classes Structs\HudChat.h">
+      <Filter>sdk\Classes / Structs</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\Classes Structs\IEntity.h">
+      <Filter>sdk\Classes / Structs</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\Classes Structs\Input.h">
+      <Filter>sdk\Classes / Structs</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\Classes Structs\KeyValues.h">
+      <Filter>sdk\Classes / Structs</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\Classes Structs\Matrix3x4_t.h">
+      <Filter>sdk\Classes / Structs</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\Classes Structs\ModelInfo.h">
+      <Filter>sdk\Classes / Structs</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\Classes Structs\QAngle.h">
+      <Filter>sdk\Classes / Structs</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\Classes Structs\Structs.h">
+      <Filter>sdk\Classes / Structs</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\Classes Structs\SurfaceData.h">
+      <Filter>sdk\Classes / Structs</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\Classes Structs\Trace.h">
+      <Filter>sdk\Classes / Structs</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\Classes Structs\UserCmd.h">
+      <Filter>sdk\Classes / Structs</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\Classes Structs\Vector.h">
+      <Filter>sdk\Classes / Structs</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\Classes Structs\ViewSetup.h">
+      <Filter>sdk\Classes / Structs</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\Classes Structs\VPhysics.h">
+      <Filter>sdk\Classes / Structs</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\Classes Structs\WeaponInfo.h">
+      <Filter>sdk\Classes / Structs</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\DefEnums.h">
+      <Filter>sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\SDK.h">
+      <Filter>sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="Hack\Helpers\Antiaim.h">
+      <Filter>Hack\Helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="Hack\Helpers\Autowall.h">
+      <Filter>Hack\Helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="Hack\Helpers\Backtracking.h">
+      <Filter>Hack\Helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="Hack\Helpers\DrawManager.h">
+      <Filter>Hack\Helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="Hack\Helpers\GrenadePrediction.h">
+      <Filter>Hack\Helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="Hack\Helpers\Lagcompensation.h">
+      <Filter>Hack\Helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="Hack\Helpers\Prediction.h">
+      <Filter>Hack\Helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="Hack\Helpers\Resolver.h">
+      <Filter>Hack\Helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="Hack\Components\Aimbot.h">
+      <Filter>Hack\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Hack\Components\Miscellaneous.h">
+      <Filter>Hack\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Hack\Components\Visuals.h">
+      <Filter>Hack\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Hack\Basics\Config.h">
+      <Filter>Hack\Basics</Filter>
+    </ClInclude>
+    <ClInclude Include="Hack\Basics\ConfigLoader.h">
+      <Filter>Hack\Basics</Filter>
+    </ClInclude>
+    <ClInclude Include="Hack\Basics\Math.h">
+      <Filter>Hack\Basics</Filter>
+    </ClInclude>
+    <ClInclude Include="Hack\Basics\NetvarManager.h">
+      <Filter>Hack\Basics</Filter>
+    </ClInclude>
+    <ClInclude Include="Hack\Basics\Util.h">
+      <Filter>Hack\Basics</Filter>
+    </ClInclude>
+    <ClInclude Include="Hack\Basics\CHook.h">
+      <Filter>Hack\Basics</Filter>
+    </ClInclude>
+    <ClInclude Include="Hack\Global.h">
+      <Filter>Hack</Filter>
+    </ClInclude>
+    <ClInclude Include="Hack\Hooks.h">
+      <Filter>Hack</Filter>
+    </ClInclude>
+    <ClInclude Include="Hack\Interfaces.h">
+      <Filter>Hack</Filter>
+    </ClInclude>
+    <ClInclude Include="Hack\MENU.h">
+      <Filter>Hack</Filter>
+    </ClInclude>
+    <ClInclude Include="Hack\Offsets.h">
+      <Filter>Hack</Filter>
+    </ClInclude>
+    <ClInclude Include="Common.h" />
+    <ClInclude Include="csgo-sdk.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="imgui\imgui.cpp">
+      <Filter>ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui_colorpicker.cpp">
+      <Filter>ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui_demo.cpp">
+      <Filter>ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui_draw.cpp">
+      <Filter>ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui_tablabel.cpp">
+      <Filter>ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\dx9\imgui_dx9.cpp">
+      <Filter>ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="sdk\Interfaces\IBaseClientDLL.cpp">
+      <Filter>sdk\Interfaces</Filter>
+    </ClCompile>
+    <ClCompile Include="sdk\Interfaces\IInputSystem.cpp">
+      <Filter>sdk\Interfaces</Filter>
+    </ClCompile>
+    <ClCompile Include="sdk\Interfaces\IMaterialSystem.cpp">
+      <Filter>sdk\Interfaces</Filter>
+    </ClCompile>
+    <ClCompile Include="sdk\Interfaces\IPhysicsSurfaceProps.cpp">
+      <Filter>sdk\Interfaces</Filter>
+    </ClCompile>
+    <ClCompile Include="sdk\Interfaces\IPrediction.cpp">
+      <Filter>sdk\Interfaces</Filter>
+    </ClCompile>
+    <ClCompile Include="sdk\Interfaces\ISurface.cpp">
+      <Filter>sdk\Interfaces</Filter>
+    </ClCompile>
+    <ClCompile Include="sdk\Interfaces\IVModelRender.cpp">
+      <Filter>sdk\Interfaces</Filter>
+    </ClCompile>
+    <ClCompile Include="sdk\Interfaces\IVPanel.cpp">
+      <Filter>sdk\Interfaces</Filter>
+    </ClCompile>
+    <ClCompile Include="sdk\Classes Structs\CEntity.cpp">
+      <Filter>sdk\Classes / Structs</Filter>
+    </ClCompile>
+    <ClCompile Include="sdk\Classes Structs\Checksum_Md5.cpp">
+      <Filter>sdk\Classes / Structs</Filter>
+    </ClCompile>
+    <ClCompile Include="sdk\Classes Structs\ConVar.cpp">
+      <Filter>sdk\Classes / Structs</Filter>
+    </ClCompile>
+    <ClCompile Include="sdk\Classes Structs\Trace.cpp">
+      <Filter>sdk\Classes / Structs</Filter>
+    </ClCompile>
+    <ClCompile Include="Hack\Helpers\Antiaim.cpp">
+      <Filter>Hack\Helpers</Filter>
+    </ClCompile>
+    <ClCompile Include="Hack\Helpers\Autowall.cpp">
+      <Filter>Hack\Helpers</Filter>
+    </ClCompile>
+    <ClCompile Include="Hack\Helpers\Backtracking.cpp">
+      <Filter>Hack\Helpers</Filter>
+    </ClCompile>
+    <ClCompile Include="Hack\Helpers\DrawManager.cpp">
+      <Filter>Hack\Helpers</Filter>
+    </ClCompile>
+    <ClCompile Include="Hack\Helpers\GrenadePrediction.cpp">
+      <Filter>Hack\Helpers</Filter>
+    </ClCompile>
+    <ClCompile Include="Hack\Helpers\Lagcompensation.cpp">
+      <Filter>Hack\Helpers</Filter>
+    </ClCompile>
+    <ClCompile Include="Hack\Helpers\Prediction.cpp">
+      <Filter>Hack\Helpers</Filter>
+    </ClCompile>
+    <ClCompile Include="Hack\Helpers\Resolver.cpp">
+      <Filter>Hack\Helpers</Filter>
+    </ClCompile>
+    <ClCompile Include="Hack\Components\Aimbot.cpp">
+      <Filter>Hack\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="Hack\Components\Miscellaneous.cpp">
+      <Filter>Hack\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="Hack\Components\Visuals.cpp">
+      <Filter>Hack\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="Hack\Basics\Config.cpp">
+      <Filter>Hack\Basics</Filter>
+    </ClCompile>
+    <ClCompile Include="Hack\Basics\ConfigLoader.cpp">
+      <Filter>Hack\Basics</Filter>
+    </ClCompile>
+    <ClCompile Include="Hack\Basics\Math.cpp">
+      <Filter>Hack\Basics</Filter>
+    </ClCompile>
+    <ClCompile Include="Hack\Basics\NetvarManager.cpp">
+      <Filter>Hack\Basics</Filter>
+    </ClCompile>
+    <ClCompile Include="Hack\Basics\Util.cpp">
+      <Filter>Hack\Basics</Filter>
+    </ClCompile>
+    <ClCompile Include="Hack\Hooks\CreateMove.cpp">
+      <Filter>Hack\Hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="Hack\Hooks\EndScene.cpp">
+      <Filter>Hack\Hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="Hack\Hooks\FrameStageNotify.cpp">
+      <Filter>Hack\Hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="Hack\Hooks\OverrideView.cpp">
+      <Filter>Hack\Hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="Hack\Hooks\PaintTraverse.cpp">
+      <Filter>Hack\Hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="Hack\Hooks\Present.cpp">
+      <Filter>Hack\Hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="Hack\Hooks\Proxies.cpp">
+      <Filter>Hack\Hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="Hack\Hooks\Reset.cpp">
+      <Filter>Hack\Hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="Hack\Hooks\RunCommand.cpp">
+      <Filter>Hack\Hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="Hack\Hooks\TraceRay.cpp">
+      <Filter>Hack\Hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="Hack\Hooks\WndProc.cpp">
+      <Filter>Hack\Hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="Hack\Basics\CHook.cpp">
+      <Filter>Hack\Basics</Filter>
+    </ClCompile>
+    <ClCompile Include="Hack\Global.cpp">
+      <Filter>Hack</Filter>
+    </ClCompile>
+    <ClCompile Include="Hack\Interfaces.cpp">
+      <Filter>Hack</Filter>
+    </ClCompile>
+    <ClCompile Include="Hack\Offsets.cpp">
+      <Filter>Hack</Filter>
+    </ClCompile>
+    <ClCompile Include="csgo-sdk.cpp" />
+  </ItemGroup>
+</Project>
